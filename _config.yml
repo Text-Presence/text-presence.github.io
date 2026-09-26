@@ -24,7 +24,7 @@ back_to_top_text: "Back to top"
 callouts:
   note:
     title: Note
-    color: grey
+    color: purple
   important:
     title: Important
     color: yellow
