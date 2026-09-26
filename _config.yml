@@ -1,30 +1,36 @@
 title: Text Presence
 description: Text Presence Core — a runtime/framework for application presence.
 theme: just-the-docs
+
 url: https://text-presence.github.io
+baseurl: ""
 
 color_scheme: dark
 search_enabled: true
 heading_anchors: true
 nav_sort: case_insensitive
+permalink: pretty
 
 aux_links:
   "GitHub": "https://github.com/Text-Presence/textpresence.github.io"
-  "TPC": "https://github.com/Text-Presence/text.presence"
-
+  "TPC source": "https://github.com/Text-Presence/text.presence"
 aux_links_new_tab: true
 
 footer_content: "Text Presence Core · Open source presence runtime/framework"
 
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+callouts:
+  note:
+    title: Note
+    color: grey
+  important:
+    title: Important
+    color: yellow
 
 defaults:
   - scope:
-      path: ""
-      type: docs
+      path: "docs"
     values:
       layout: default
-      parent: Documentation
