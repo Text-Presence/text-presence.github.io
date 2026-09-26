@@ -12,8 +12,8 @@ nav_sort: case_insensitive
 permalink: pretty
 
 aux_links:
-  "GitHub": "https://github.com/Text-Presence/textpresence.github.io"
-  "TPC source": "https://github.com/Text-Presence/text.presence"
+  "GitHub": "https://github.com/Text-Presence/text-presence.github.io"
+  "TPC source": "https://github.com/critical-dummy/text.presence"
 aux_links_new_tab: true
 
 footer_content: "Text Presence Core · Open source presence runtime/framework"
