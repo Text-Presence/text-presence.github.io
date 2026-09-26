@@ -11,9 +11,9 @@ description: Text Presence Core — a runtime/framework for application presence
 
 TPC is a **presence runtime/framework** for detecting application state, connecting it to a target definition, and exposing that state to presence clients.
 
-It is designed to sit between an application and a presence representation:
+<div class="code-example" markdown="1">
 
-```
+```text
 Application
     ↓
 TPC Target Detection
@@ -25,11 +25,13 @@ Connector
 Presence Service
 ```
 
+</div>
+
 ## What TPC does
 
 - Detects a running target and its state.
 - Loads target-specific definitions from JSON.
-- Runs presence providers/connectors.
+- Runs presence providers and connectors.
 - Supports reusable UPC templates with `{variable}` placeholders.
 - Can serve a local RPC endpoint.
 - Supports multiple presence instances with `--instant`.
@@ -41,6 +43,7 @@ Presence Service
 tpc --launch upc --app discord --target fl_studio.json
 ```
 
-For a continuously running target, TPC can keep the detected state synchronized with the connector.
-
 [Get started](docs/getting-started/) · [Architecture](docs/architecture/) · [CLI reference](docs/cli/)
+
+{: .note }
+TPC is designed as a runtime/framework first — not just a Discord RPC CLI.
